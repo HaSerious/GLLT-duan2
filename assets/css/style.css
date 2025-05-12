@@ -9,4 +9,46 @@ html {
 /* Khôi phục lại cỡ chữ mặc định theo rem */
 body {
     font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* =====================common========================== */
+
+a {
+    text-decoration: none;
+}
+
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+
+/* =====================header========================== */
+
+.header .logo .logo-header {
+    width: 37px;
+    height: 37px;
+}
+
+.header .logo .logo-name {
+    width: 75px;
+    height: 17px;
+} 
+
+.header .logo {
+    display: flex;
+    align-items: center;
+}
+.header .logo .circle {
+    padding-top: 10px;
+}
+
+.header .body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .body .nav ul {
+    display: flex;
 }
