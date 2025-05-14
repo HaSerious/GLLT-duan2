@@ -17,22 +17,37 @@
 
     <title>Figma to HTML (dự án 2)</title>
   </head>
-  <body style="height: 10000px;">
+  <body style="height: 10000px">
     <!-- header -->
     <header class="header fixed">
       <div class="main-content">
         <div class="body">
           <!-- logo -->
           <div class="logo">
-            <img src="./assets/images/icon/logo-header.png " alt="" class="logo-header" />
-            <img src="./assets/images/icon/logo-name.svg" alt="" class="logo-name" />
-            <img src="./assets/images/icon/small-circle.svg" alt="" class="circle" />
+            <a href="#!">
+              <img
+                src="./assets/images/icon/logo-header.png "
+                alt=""
+                class="logo-header"
+            /></a>
+            <a href="#!">
+              <img
+                src="./assets/images/icon/logo-name.svg"
+                alt=""
+                class="logo-name"
+            /></a>
+            <a href="#!">
+              <img
+                src="./assets/images/icon/small-circle.svg"
+                alt=""
+                class="circle"
+            /></a>
           </div>
           <!-- nav -->
           <nav class="nav">
             <ul>
               <li>
-                <a href="#!">Home</a>
+                <a class="active" href="#!">Home</a>
               </li>
               <li>
                 <a href="#!">Features</a>
@@ -50,12 +65,86 @@
           </nav>
           <!-- btn action -->
           <div class="action">
-            <a href="#!" class="btn">Sign In</a>
-            <a href="#!" class="btn">Sign Up</a>
+            <a href="#!" class="btn btn-sign-in">Sign In</a>
+            <a href="#!" class="btn btn-sign-up">Sign Up</a>
           </div>
         </div>
       </div>
     </header>
-    
+
+    <!-- introduce -->
+    <div class="introduce">
+      <div class="main-content">
+        <!-- left part -->
+        <div class="left-part">
+          <span class="label">😎 EASY LEARNING PLATFORM</span>
+          <h1 class="title-lv1">Words learner come here.</h1>
+          <p class="desc">
+            Build skills with courses, certificates, and get online knowledge
+            from our world-class platform.
+          </p>
+          <div class="action">
+            <a href="#!" class="btn btn-start">Get Started</a>
+            <a href="#!" class="cta-btn">
+              <svg
+                width="14"
+                height="18"
+                viewBox="0 0 14 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M14 9L0 0V18L14 9Z" fill="#1EBFC1" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <!-- right part -->
+        <div class="right-part">
+          <img
+            src="./assets/images/img/introduce-image.png"
+            alt=""
+            class="avatar"
+          />
+          <div class="courses">
+            <div class="book">
+              <a href="#!">
+                <svg
+                  class="book1"
+                  width="36"
+                  height="40"
+                  viewBox="0 0 36 40"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 4C0 1.79086 1.79086 0 4 0H34C35.1046 0 36 0.895431 36 2V38C36 39.1046 35.1046 40 34 40H4C1.79086 40 0 38.2091 0 36V4Z"
+                    fill="#FF8282"
+                  />
+                </svg>
+              </a>
+
+              <a href="#!">
+                <svg
+                  class="book2"
+                  width="28"
+                  height="4"
+                  viewBox="0 0 28 4"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M2 4H26C27.1046 4 28 3.10457 28 2C28 0.895431 27.1046 0 26 0H2C0.895431 0 0 0.895431 0 2C0 3.10457 0.895431 4 2 4Z"
+                    fill="white"
+                  />
+                </svg>
+              </a>
+            </div>
+            <a href="#!"> <span class="tag"> Courses 1000+ </span></a>
+          </div>
+          <div class="schedules"></div>
+          <div class="student"></div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
