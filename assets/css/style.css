@@ -405,6 +405,8 @@ a {
 
 .courses {
     margin-top: 65px;
+    padding-bottom: 189px;
+    /* (65+124), 124 là thằng content-course dịch xuống */
 }
 
 .courses .courses-top-content {
@@ -424,6 +426,11 @@ a {
     text-decoration-thickness: auto;
     text-underline-offset: auto;
     text-underline-position: from-font;
+}
+
+.courses .courses-body {
+    display: flex;
+    gap: 47px;
 }
 
 .courses-body .item {
@@ -520,4 +527,34 @@ a {
 
 .courses-body .course-time::before {
     margin-left: 10px;
+}
+
+/* =====================Courses-info========================== */
+
+.courses-info {
+    margin-top: 200px;
+}
+
+.courses-info .top-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.courses-info .item {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+
+.courses-info .item .number-part {
+    color: #0D1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.courses-info .item .name-part {
+    color: #767E7E;
+    font-size: 1.8rem;
+    line-height: normal;
 }
