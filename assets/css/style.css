@@ -558,3 +558,133 @@ a {
     font-size: 1.8rem;
     line-height: normal;
 }
+/* ===================body-info================ */
+
+.courses-info .body-info {
+    margin-top: 264px;
+    /* height: 481px; */
+}
+
+.courses-info .body-info .main-content {
+    display: flex;
+    gap: 72px;
+    align-items: center;
+}
+
+.body-info .block-quote {
+    margin-top: 27px;
+    color: #5D6564;
+    font-size: 3.2rem;
+    line-height: 4.8rem;
+    width: 419px;
+}
+
+.body-info .name {
+    margin-top: 33px;
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+}
+
+.body-info .name::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+    margin-right: 5px;
+}
+
+.body-info .name strong {
+    color: #767E7E;
+    font-size: 1.6rem;
+    line-height: normal;
+    margin-left: 5px;
+}
+
+.body-info .btn-bq {
+    margin-top: 52px;
+    display: flex;
+    gap: 30px;
+}
+
+.body-info .btn-bq svg {
+    /* width: 6px;
+    height: 12px; */
+}
+
+.body-info .btn-bq .wrap-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-info .right-part {
+    position: relative;
+    width: 100%;
+    height: 481px;
+}
+
+
+.body-info .right-part .avatar {
+    display: block;
+    width: 78px;
+    height: 78px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.body-info .right-part .wrap-image:nth-child(1) .avatar {
+    width: 92px;
+    height: 92px;
+    background: var(--main-color);
+    position: absolute;
+    left: 144px;
+    top: 0;
+}
+
+.body-info .right-part .wrap-image:nth-child(2) .avatar {
+    width: 110px;
+    height: 110px;
+    background: #BF83FF;
+    position: absolute;
+    right: 0px;
+    top: 26px;
+}
+
+.body-info .right-part .wrap-image:nth-child(3) .avatar {
+    width: 235px;
+    height: 235px;
+    background: #FF8282;
+    position: absolute;
+    right: 143px;
+    top: 90px;
+}
+
+.body-info .right-part .wrap-image:nth-child(4) .avatar {
+    background: #FFC147;
+    position: absolute;
+    left: 0;
+    top: 250px;
+}
+
+.body-info .right-part .wrap-image:nth-child(5) .avatar {
+    background: #FF947A;
+    position: absolute;
+    bottom: 0;
+    left: 202px;
+}
+
+.body-info .right-part .wrap-image:nth-child(6) .avatar {
+    background: #B1DFDC;
+    position: absolute;
+    right: 44px;
+    bottom: 40px;
+}
