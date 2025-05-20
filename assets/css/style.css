@@ -558,6 +558,7 @@ a {
     font-size: 1.8rem;
     line-height: normal;
 }
+
 /* ===================body-info================ */
 
 .courses-info .body-info {
@@ -687,4 +688,140 @@ a {
     position: absolute;
     right: 44px;
     bottom: 40px;
+}
+
+/* =====================cta-part========================== */
+
+.cta-part {
+    margin-top: 130px;
+    background-color: #DEF6F5;
+}
+
+.cta-part .main-content {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    gap: 410px;
+}
+
+
+.cta-part .title-lv2 {
+    padding-top: 76px;
+    color: #070707;
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.cta-part .desc {
+    margin-top: 18px;
+    color: #767E7E;
+    font-size: 1.8rem;
+    line-height: normal;
+    padding-bottom: 88px;
+}
+
+.cta-part .btn-start {
+    display: inline-flex;
+    width: 186px;
+    height: 68px;
+    border-radius: 14px;
+    background: var(--main-color);
+    color: #FFF;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: normal;
+    justify-content: center;
+    align-items: center;
+}
+
+/* =====================footer========================== */
+.footer {
+    padding-top: 131px;
+}
+
+.footer .row {
+    display: flex;
+}
+
+.footer .row .column {
+    width: 234px;
+}
+
+.footer .logo .logo-header {
+    width: 37px;
+    height: 37px;
+    margin-right: 6px;
+    display: block;
+}
+
+.footer .logo .logo-name {
+    width: 75px;
+    height: 17px;
+    margin-right: 3.5px;
+    display: block;
+}
+
+.footer .logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer .logo .circle {
+    padding-top: 10px;
+}
+
+.footer .column ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .column .tag {
+    color: #2E2E2E;
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer .column a {
+    display: inline-block;
+    color: #535353;
+    font-size: 1.6rem;
+    line-height: normal;
+}
+
+.footer .column ul a:first-child {
+    margin-top: 26px;
+}
+
+.footer .column ul a {
+    margin-top: 18px;
+}
+
+.footer .column li:nth-child(3) svg {
+    position: relative;
+    left: -7px;
+    top: 5px;
+}
+
+.footer .column li:nth-child(3) a {
+    position: relative;
+    left: -7px;
+}
+
+.footer .column li:nth-child(2) svg {
+    margin-right: 15px;
+}
+
+.footer .column li svg {
+    margin-right: 10px;
+}
+
+.footer .copy-right {
+    margin-top: 80px;
+    color: #B0B5B4;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-bottom: 50px;
 }
